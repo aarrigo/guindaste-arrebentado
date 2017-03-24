@@ -1,7 +1,7 @@
 document.body.style.backgroundColor = sessionStorage.getItem('bg');
 document.body.style.color = sessionStorage.getItem('cc');
 function theme() {
-     if ( sessionStorage.getItem('bg') === 'rgb(255, 255, 255)') {
+     if ( sessionStorage.getItem('bg') === 'rgb(197, 197, 197)') {
          
             sessionStorage.setItem('bg', 'rgb(6, 23, 37)');
             sessionStorage.setItem('cc', '#777');
@@ -15,7 +15,7 @@ function theme() {
     }
     else if( sessionStorage.getItem('bg') === 'rgb(6, 23, 37)') {
         
-        sessionStorage.setItem('bg', 'rgb(255, 255, 255)');
+        sessionStorage.setItem('bg', 'rgb(197, 197, 197)');
         sessionStorage.setItem('cc', '#333');
         
   
